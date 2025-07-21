@@ -7,7 +7,8 @@
   vars:
     ovos_config_dir: "{{ ansible_env.HOME }}/.config/mycroft"
     ovos_log_dir: "{{ ansible_env.HOME }}/.local/state/mycroft/logs"
-    ovos_repo_url: "https://github.com/OscillateLabsLLC/ovos-mac.git"
+    ovos_repo_url: "https://github.com/timonvanhasselt/ovos-mac.git" #temp my fork
+    ovos_repo_branch: "uv-latest"
     ovos_repo_dest: "{{ ansible_env.HOME }}/ovos-mac"
     ovos_venv: "{{ ansible_env.HOME }}/.venvs/ovos-mac"
     python_version: "3.10"
@@ -206,7 +207,7 @@
       ansible.builtin.git:
         repo: "{{ ovos_repo_url }}"
         dest: "{{ ovos_repo_dest }}"
-        version: uv-latest
+        version: "{{ ovos_repo_branch }}"
         update: no
       when: not ovos_repo_check.stat.exists
 
@@ -219,7 +220,7 @@
       ansible.builtin.git:
         repo: "{{ ovos_repo_url }}"
         dest: "{{ ovos_repo_dest }}"
-        version: mike
+        version: "{{ ovos_repo_branch }}"
         update: yes
         force: true
       when: ovos_repo_check.stat.exists
