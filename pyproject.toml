@@ -70,7 +70,7 @@ dependencies = [
     "skill-easter-eggs",
     # "skill-ovos-fallback-chatgpt>=0.1.13",
     "phal-plugin-save-conversations",
-    "ovos-kid-friendly-dialog-transformer",
+    # "ovos-kid-friendly-dialog-transformer",
     "tts-plugin-mozilla-remote==3.0.0",
     "skill-homeassistant>=0.1.0",
 ]
@@ -185,8 +185,8 @@ constraint-dependencies = [
 [tool.uv.sources]
 skill-easter-eggs = { git = "https://github.com/openvoiceos/ovos-skill-easter-eggs", rev = "dev" }
 skill-plex = { git = "https://github.com/oscillatelabsllc/skill-plex" }
-phal-plugin-save-conversations = { path = "../skill-save-conversations" }
-ovos-kid-friendly-dialog-transformer = { path = "../../OscillateLabs/ovos-kid-friendly-dialog-transformer" }
+# phal-plugin-save-conversations = { path = "../skill-save-conversations" }
+# ovos-kid-friendly-dialog-transformer = { path = "../../OscillateLabs/ovos-kid-friendly-dialog-transformer" }
 # ovos-skill-openhab = { git = "https://github.com/OscillateLabsLLC/ovos-skill-openhab", rev = "Fix_RefreshItems" }
 
 # [tool.poetry.group.ocp_youtube.dependencies]
