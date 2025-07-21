@@ -235,7 +235,7 @@
       ansible.builtin.shell: |
         source {{ ovos_venv }}/bin/activate
         cd {{ ovos_repo_dest }}
-        LIBRARY_PATH=/usr/local/lib uv sync --extra padatious
+        LIBRARY_PATH=/usr/local/lib uv sync # temp remove padatious
       args:
         executable: /bin/zsh
 
