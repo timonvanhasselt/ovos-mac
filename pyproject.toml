@@ -67,7 +67,7 @@ dependencies = [
     "tflite==2.10.0",  # Geen constraint
     "watchdog>=2.1",  # Geen constraint
     "skill-plex",  # Geen constraint
-    "skill-easter-eggs",  # Geen constraint
+    #"skill-easter-eggs",  # Geen constraint
     # "skill-ovos-fallback-chatgpt>=0.1.13",  # Uitgecommentarieerd
     "phal-plugin-save-conversations",  # Geen constraint
     # "ovos-kid-friendly-dialog-transformer",  # Uitgecommentarieerd
@@ -181,8 +181,8 @@ constraint-dependencies = [
 ]
 
 [tool.uv.sources]
-skill-easter-eggs = { git = "https://github.com/openvoiceos/ovos-skill-easter-eggs", rev = "dev" }
-skill-plex = { git = "https://github.com/oscillatelabsllc/skill-plex" }
+#skill-easter-eggs = { git = "https://github.com/openvoiceos/ovos-skill-easter-eggs", rev = "dev" }
+#skill-plex = { git = "https://github.com/oscillatelabsllc/skill-plex" }
 # phal-plugin-save-conversations = { path = "../skill-save-conversations" }
 # ovos-kid-friendly-dialog-transformer = { path = "../../OscillateLabs/ovos-kid-friendly-dialog-transformer" }
 # ovos-skill-openhab = { git = "https://github.com/OscillateLabsLLC/ovos-skill-openhab", rev = "Fix_RefreshItems" }
