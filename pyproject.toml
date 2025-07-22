@@ -66,7 +66,7 @@ dependencies = [
     # "tensorflow-metal>=1.1.0",  # Uitgecommentarieerd
     "tflite>=2.10.0",  # Geen constraint
     "watchdog>=2.1",  # Geen constraint
-    "skill-plex",  # Geen constraint
+    #"skill-plex",  # Geen constraint
     #"skill-easter-eggs",  # Geen constraint
     # "skill-ovos-fallback-chatgpt>=0.1.13",  # Uitgecommentarieerd
     "phal-plugin-save-conversations",  # Geen constraint
@@ -133,7 +133,7 @@ include-package-data = true
 mike = [
     "neon-homeassistant-skill>=0.0.22",
     "ovos-phal-plugin-homeassistant>=0.0.4a15",
-    "skill-plex",
+    #"skill-plex",
 ]
 
 [tool.uv]
