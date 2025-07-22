@@ -82,9 +82,9 @@ include-package-data = true
 
 [dependency-groups]
 mike = [
-    "neon-homeassistant-skill>=0.0.22",
-    "ovos-phal-plugin-homeassistant==0.0.4a15",
-    "skill-plex",
+    #"neon-homeassistant-skill>=0.0.22",
+    #"ovos-phal-plugin-homeassistant==0.0.4a15",
+    #"skill-plex",
 ]
 
 [tool.uv]
