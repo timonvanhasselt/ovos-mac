@@ -53,7 +53,7 @@ dependencies = [
     "ovos-utils>=0.8.1",
     "ovos-utterance-normalizer>=0.2.2",
     "ovos-vad-plugin-silero>=0.0.5",
-    "ovos-workshop>=7.0.9a1",
+    "ovos-workshop < 4.0.0",
     "ovos-ww-plugin-openwakeword>=0.4.1",
     "ovos-ww-plugin-precise-lite[full]>=0.1.6",
     "padatious>=0.4.8",  # Geen constraint
@@ -184,7 +184,7 @@ constraint-dependencies = [
     "ovos-utils>=0.8.1",
     "ovos-utterance-normalizer>=0.2.2",
     "ovos-vad-plugin-silero>=0.0.5",
-    "ovos-workshop>=7.0.9a1",
+    "ovos-workshop < 4.0.0",
     "ovos-ww-plugin-openwakeword>=0.4.1",
     "ovos-ww-plugin-precise-lite>=0.1.6",
     "padatious>=0.4.8",
