@@ -35,7 +35,7 @@ dependencies = [
     "ovos-skill-days-in-history>=0.3.11",
     "ovos-skill-fallback-unknown>=0.1.9",
     "ovos-skill-hello-world>=0.2.3a2",
-    "ovos-skill-icanhazdadjokes==0.3.2",  # Geen constraint
+    #"ovos-skill-icanhazdadjokes==0.3.2",  # Geen constraint
     "ovos-skill-ip>=0.2.8",
     "ovos-skill-personal>=0.1.19",
     "ovos-skill-randomness>=0.1.2",
@@ -167,7 +167,7 @@ constraint-dependencies = [
     "ovos-skill-days-in-history>=0.3.11",
     "ovos-skill-fallback-unknown>=0.1.9",
     "ovos-skill-hello-world>=0.2.3a2",
-    "ovos-skill-icanhazdadjokes==0.3.2",
+    #"ovos-skill-icanhazdadjokes==0.3.2",
     "ovos-skill-ip>=0.2.8",
     "ovos-skill-personal>=0.1.19",
     "ovos-skill-randomness>=0.1.2",
