@@ -10,7 +10,7 @@ dependencies = [
     "ovos-adapt-parser>=1.0.8",
     "ovos-audio>=1.0.2a2",
     "ovos-audio-plugin-mpv>=0.2.1",
-    "ovos-backend-client==1.0.1",  # Geen constraint opgegeven, laten staan
+    #"ovos-backend-client==1.0.1",  # Geen constraint opgegeven, laten staan
     "ovos-bus-client>=1.3.5a1",
     "ovos-classifiers~=0.0.0a59",  # Geen specifieke constraint
     "ovos-common-query-pipeline-plugin>=1.1.8",
